@@ -1,0 +1,382 @@
+body {
+    width: 1300px;
+    margin:0 auto;
+}
+.main {
+    margin-left: 100px;
+}
+
+#nav {
+    height: 80px;
+}
+
+#nav tr td ul li {
+    display: inline;
+    list-style: none;
+    font-weight: 550;
+    font-size: 18px;
+    margin: 0px 6px;
+}
+#nav tr td ul li a {
+    color: black;
+    text-decoration: none;
+}
+#reg {
+    position: relative;
+    left: 35px;
+}
+#reg a {
+    color: black;
+    text-decoration: none;
+}
+.logo {
+    width: 230px;
+    height: 50px;
+}
+#head {
+    height: 320px;
+    width: 1070px;
+    background: url("../imgs/back.png");
+}
+#guide {
+    width: 990px;
+    height:320px;
+}
+.guide1 {
+    width: 755px;
+    height: 290px;
+}
+#p1 {
+    font-size: 40px;
+    font-weight: 700;
+    /* line-height: 100px; */
+    color: white;
+    text-indent: 100px;
+}
+.p2 {
+    color: white;
+    text-indent: 100px;
+    font-size: 15px;
+    font-weight: 320;
+}
+#guide2 {
+    background: url("../imgs/guide.png")no-repeat;
+    background-size: cover;
+    vertical-align: top;
+   
+}
+#guide2>h5 {
+    font-weight: 280;
+    font-size: 20px;
+    line-height: 0px;
+    text-indent: 20px;
+}
+ol li {
+    text-indent: -10px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 290;
+    line-height: 25px;
+}
+ol li p {
+    line-height: 10px;
+    font-size: 3px;
+    color: rgb(185, 182, 182);
+    
+}
+#box1 {
+    color: white;
+    height: 85px;
+    width: 130px;
+    line-height: 28px;
+    font-size: 17px;
+    text-indent: 15px;
+}
+#box1 p {
+    font-size: 10px;
+    line-height: 10px;
+}
+#box2 img{
+    width: 95%;
+    height: 90%;
+}
+.afterSale {
+    width: 1070px;
+    height: 60px;
+    text-align: center;
+    font-size: small;
+    font-weight: 500;
+}
+.afterSale  tr td img {
+    width: 90px
+}
+#bigTable {
+    width: 1070px;
+    height: 800px;
+    text-align: center;
+}
+.finTable {
+    width: 1070px;
+    height: 200px;
+    text-align: center;
+}
+.finTable tr td span {
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-bottom: -8px;
+    border-bottom: 12px solid rgb(248, 209, 173);
+
+}
+#APP {
+    position: relative;
+    left: 30%;
+    width: 250px;
+    height: 150px;
+    background-color: rgb(252, 243, 233);
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 55px;
+}
+.foot {
+    height: 130px;
+}
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 81, 0);
+    display: table;
+    margin-left: 0px;
+}
+footer p {
+    height: 120px;
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 25px;
+    font-size: 14px;
+}
+.mainpic {
+    width: 240px;
+    height: 220px;
+}
+/* 娉ㄥ唽椤� 鐧诲綍椤� */
+.zhuce {
+    background-color: white;
+    text-align: center;
+}
+.zhuce form>p {
+   line-height: 40px;
+   text-indent: -40px;
+   font-weight: 700;
+}
+.zhuce form p a {
+    font-size: 14px;
+    position: relative;
+    left: 35px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.zhuce form input {
+    width: 170px;
+    margin-top: 17px;
+    height: 29px;
+    color: rgb(179, 174, 174);
+    font-size: 10px;
+    border: solid rgb(230, 225, 225);
+}
+.btn {
+    list-style: none;
+    margin-left: -30px;
+    margin-top: -13px;
+}
+#btn {
+    background-color: tomato;
+    border-style: none;
+    color: white;
+}
+.zhuceFooter {
+    margin-top: 65px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(145, 141, 141);
+}
+/* 鍥㈤暱鎷涘嫙椤甸潰 */
+.partTitle {
+    background-size: cover;
+    color: white;
+    height: 180px;
+    text-indent: 90px;
+    width: 78%;
+}
+.partTitle p{
+    font-size: large;
+    line-height: 90px;
+}
+.partTitle h5 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+.partTable {
+    margin-left: 10px;
+    margin-top: 30px;
+    text-indent: 100px;
+}
+.partTable tr td>p {
+    line-height: 20px;
+    font-size: 25px;
+}
+.tubiao {
+    width: 80px;
+}
+.partTable tr td>ul {
+    margin-top: 100px;
+    list-style: none;
+}
+.partTable tr td>ul li {
+    height: 120px;
+    font-size: large;
+    
+}
+#need1 {
+    vertical-align: top;
+   display: inline-block;
+   margin-top: 50px;
+   width: 600px;
+}
+#need1>p {
+    text-indent: 50px;
+    font-size: larger;
+    font-weight: 500;
+}
+#need1>img {
+    width: 650px;
+    margin-left: 30px;
+}
+#need1 table{
+margin-left: 100px;
+width: 500px;
+}
+#join1 {
+    vertical-align: top;
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    margin-left: 100px;
+}
+#join1 h5 {
+    margin-top: 60px;
+    font-size: larger;
+    line-height: 80px;
+}
+/* 鍟嗘埛鍏ヨ亴鏍峰紡 */
+#need2>p{
+    font-size: larger;
+    text-indent: 40px;
+    line-height: 50px;
+}
+#need2>table {
+    margin-left: 40px;
+    width: 900px;
+    height: 300px;
+    text-align: center;
+    font-size: small;
+}
+#join2 {
+    margin-top: 90px;
+    text-align: center;
+    width: 1000px;
+}
+#join2 img {
+    width: 200px;
+}
+/* 鍏充簬鎴戜滑鏍峰紡 */
+#aboutus {
+    width: 1000px;
+}
+#aboutus h4 {
+    margin-left: 20px;
+    font-size: 29px;
+    font-weight: 300;
+}
+#aboutus p {
+    margin-left: 20px;
+    text-indent: 2em;
+    line-height: 29px;
+    font-size: large;
+    font-weight: 300;
+}
+#aboutus table {
+    margin: auto;
+    margin-top: 50px;
+    font-size: small;
+    font-weight: 300;
+    text-align: center;
+    width: 500px;
+}
+/* 缃戞牸绔欏叏鍥芥嫑鍕� */
+#need3>p{
+    font-size: larger;
+    text-align: center;
+    text-indent: -195px;
+    line-height: 50px;
+}
+#need3>table {
+    margin-left: 40px;
+    width: 900px;
+    height: 300px;
+    text-align: center;
+    font-size: small;
+}
+/* 涓氬姟鎺ㄥ箍鍛樻嫑鍕� */
+#need4 {
+    vertical-align: top;
+   display: inline-block;
+   margin-top: 50px;
+   width: 680px;
+   height: 1200px;
+}
+#need4 table{
+    text-align: center;
+    margin-left: 40px;
+    width: 640px;
+    height: 250px;
+    font-size: small;
+}
+#need4>p{
+    font-size: larger;
+    text-indent: 300px;
+    line-height: 50px;
+}
+#need4 div {
+    margin-left: 55px;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    background-color: rgb(241, 237, 245);
+}
+#need4 div h5 {
+    margin-top: 80px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 100px;
+}
+#need4 div p {
+    margin-top: -50px;
+    font-weight: 300;
+}
+#join4 {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin-left: 80px;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 25px;
+}
+#join4 h5 {
+    font-size: larger;
+    line-height: 130px;
+}
