@@ -1,2 +1,4 @@
 # Web-2021.10
-Web学习项目
+技术栈
+> 前端html+css+js
+> 后端 JDBC+DAO+servlet
